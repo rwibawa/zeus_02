@@ -2,6 +2,10 @@
 
 Use ZeppOS to develop app for my Amazfit Band 5 device on win10.
 
+* [Zepp OS Developer](https://developer.zepp.com)
+* [docs](https://docs.zepp.com/docs/intro/)
+* [watchface studio](https://watchface.zepp.com)
+
 ## 1. Setup
 
 ### `zeus` tool
@@ -79,6 +83,10 @@ $ npm i @zeppos/zeus-cli -S
    3. Modify the IPv4 properties of **'tun'** to the following configuration:
    IP address: 192.168.166.1
    Subnet mask: 255.255.255.0
+
+   IP address: 192.168.166.188
+   Port: 7833
+   
    [network properties](img/network_properties.png)
 2. [Download](https://docs.zepp.com/docs/guides/tools/simulator/download/) the [simulator installer](sdk/simulator_1.1.6.exe) for win10.
 3. Simulator bridge configuration:
@@ -113,3 +121,9 @@ watching the changes in this project...
 
 Output:
 ![Hello-World](img/Hello-World.jpg)
+
+## 3. [Sample Apps](https://github.com/zepp-health/zeppos-samples)
+
+* [Todo List](https://github.com/zepp-health/zeppos-samples/tree/main/application/todo-list)
+* [Calories](https://github.com/zepp-health/zeppos-samples/tree/main/application/calories)
+* [Fetch API](https://github.com/zepp-health/zeppos-samples/tree/main/application/fetch-api)
